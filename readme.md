@@ -4,6 +4,8 @@
 
 ua-parser-js doesn't have to be accessed by the `window` object. Use dependency injection instead. Great for unit test and do everything in the Angular manner.
 
+**NOTE:** You can use `uaParser` directly without `new`ing it. It's already initialised for you.
+
 
 [npm-image]: https://badge.fury.io/js/ng-ua-parser.svg
 [npm-url]: https://npmjs.org/package/ng-ua-parser
