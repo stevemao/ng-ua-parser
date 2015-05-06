@@ -1,0 +1,40 @@
+{
+  "name": "ng-ua-parser",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": ">1.2.0",
+    "ua-parser-js": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": ">1.2.0"
+  },
+  "main": [
+    "dist/js/ng-ua-parser.js"
+  ],
+  "appPath": "src",
+  "authors": [
+    "steve mao <maochenyan@gmail.com>"
+  ],
+  "description": "ng-ua-parser is an Angular factory wrapper for ua-parser-js (https://github.com/faisalman/ua-parser-js)",
+  "keywords": [
+    "angular",
+    "wrapper",
+    "user-agent",
+    "parser",
+    "browser",
+    "engine",
+    "os",
+    "device",
+    "cpu"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/stevemao/ng-ua-parser",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
