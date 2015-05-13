@@ -6,7 +6,7 @@ ua-parser-js doesn't have to be accessed by the `window` object. Use dependency 
 
 **NOTE:** You can use `uaParser` directly without `new`ing it. It's already initialised for you.
 
-Add `ngUaParser` as a module dependency to your app after including the `ng-ua-parser.js` script.
+Add `ngUaParser` as a module dependency to your app after including the `ng-ua-parser.js` script and inject `uaParser` anywhere you need.
 
 
 [npm-image]: https://badge.fury.io/js/ng-ua-parser.svg
